@@ -10,12 +10,10 @@ public class Prework4TaskAdd5 {
 
         int[] maxInRows = findMaxInRows(arrayNumbers);
 
-        System.out.println("Największe elementy w wierszach:");
         displayArray(maxInRows);
 
         int[] minInColumns = findMinInColumns(arrayNumbers);
 
-        System.out.println("Najmniejsze elementy w kolumnach:");
         displayArray(minInColumns);
     }
 
@@ -30,14 +28,12 @@ public class Prework4TaskAdd5 {
                     maxInRow = array[i][j];
                 }
             }
-
             maxInRows[i] = maxInRow;
         }
-
         return maxInRows;
     }
 
-    private static int[] findMinInColumns(int[][] array) {
+    public static int[] findMinInColumns(int[][] array) {
         int[] minInColumns = new int[array[0].length];
 
         for (int j = 0; j < array[0].length; j++) {
@@ -48,10 +44,8 @@ public class Prework4TaskAdd5 {
                     minInColumn = array[i][j];
                 }
             }
-
             minInColumns[j] = minInColumn;
         }
-
         return minInColumns;
     }
 
