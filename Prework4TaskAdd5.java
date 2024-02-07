@@ -3,7 +3,7 @@ public class Prework4TaskAdd5 {
     public static void main(String[] args) {
 
         int[][] arrayNumbers = {
-                {5, 8, 2},
+                {5, 8, 7},
                 {1, 6, 9},
                 {4, 7, 3},
         };
